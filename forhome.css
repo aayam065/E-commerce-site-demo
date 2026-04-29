@@ -1,0 +1,129 @@
+
+
+.container {
+          position: fixed;
+          height: 120px;
+          width: 100%;
+          background-color: #E6F4F7;
+          z-index: 100;
+          
+        }
+
+         .pic {
+          width: 100px;
+          height: 100px;
+          position: absolute;
+          top: 10px;
+          left: 20px;
+        }
+
+        .txt {
+          position: absolute;
+          top: 16px;
+          right: 95px;
+          transition: transform 0.2s ease;
+          display: inline-block;
+          color: #2C3E50;
+        }
+
+        .txt:hover {
+          text-decoration: none;
+transition: transform 0.2s ease;
+transform: scale(1.1);
+          color: #0EA5E9;
+        }
+
+          .link1{
+          	color: #0EA5E9;
+            text-decoration: none;
+
+          }
+         
+
+          .link2{
+            color: #2C3E50;
+            text-decoration: none;
+transition: transform 0.2s ease;
+display: inline-block;
+          }
+          .link2:hover{
+            color: #0EA5E9;
+            transform: scale(1.1);
+          }
+
+          .link3{
+            color: #2C3E50;
+            text-decoration: none;
+transition: transform 0.2s ease;
+display: inline-block;
+          }
+          .link3:hover{
+            color: #0EA5E9;
+            transform: scale(1.1);
+          }
+
+
+          .link5{
+            color: #2C3E50;
+            text-decoration: none;
+transition: transform 0.2s ease;
+display: inline-block;
+          }
+          .link5:hover{
+            color: #0EA5E9;
+            transform: scale(1.1);
+          }
+
+          .box {
+            color: #111827;
+            width: 800px;
+            height: 25px;
+            border: 2px solid #2C3E50;
+            top: 60px;
+            left:190px;
+            position: absolute;
+            font-size: 15px;
+            font-family: 'Inter';
+
+          }
+          .pro {
+            padding-top: 315px;
+            padding-left: 300px;
+            row-gap: 50px;
+            column-gap:100px;
+            display: flex;
+            flex-wrap: wrap;
+
+          }
+
+          
+          .add img {
+            height: 150px;
+            width: 800px;
+            margin-top:135px;
+            margin-left:350px;
+            position:absolute;
+            border-radius: 10px;
+          }
+    
+
+          .sidebar {
+            position:fixed;
+            top:120px;
+            left:0px;
+            width:220px;
+            height:100%;
+            background: #F1F5F9;
+            border-radius: 15px;
+
+          }
+          .title {
+            color: #111827;
+            font-size: 30px;
+            font-weight: bold;
+            font-family: 'Playfair Display';
+            padding-top:10px;
+            padding-bottom: 20px;
+            padding-left:15px;
+        
+          }

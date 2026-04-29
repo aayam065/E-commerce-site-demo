@@ -1,0 +1,105 @@
+
+        
+        .container {
+          position: fixed;
+          height: 50px;
+          background-color: #E6F4F7;
+          top:0;
+          left:0;
+          width:100%;
+          z-index: 1000;
+          
+        }
+
+
+        .pic {
+          width: 50px;
+          height: 50px;
+          position: absolute;
+          top: 4px;
+          left: 20px;
+        }
+
+        .table{
+          background-color: #E6F4F7;
+          height: 40px;
+          width: 800px;
+          position: relative;
+          top: 8px;
+          left: 150px;
+          
+        }
+
+        .profile {
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 12px;
+            right: 220px;
+          }
+
+        .icon{
+
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 58px;
+            left:155px;
+
+        }
+        .p1 {
+            background: #D9EEF2;
+            border-radius: 15px;
+            transition: transform 0.2s ease;
+            height: 300px;
+            width: 250px;
+            
+            }
+
+            .p1:hover {
+              background: #BFE7FF;
+              transform: scale(1.05);
+            }
+
+            .p1 img {
+              height: 200px;
+              width:200px;
+              margin-left: auto;
+              margin-right: auto;
+              display: block;
+              
+              
+            }
+            .p1t {
+              color: #111827;
+              font-family: 'Poppins';
+              font-size: 16px;
+              font-weight: bold;
+              margin-top: 20px;
+              margin-left: 5px;
+
+            }
+            .p1tp{
+              color: #1D4ED8;
+              font-family: 'Montserrat';
+              font-size: 22px;
+              font-weight: bold;
+              margin-top: 10px;
+              margin-left: 5px;
+            }
+
+            
+          .ad {
+            width: 800px;
+            height:150px;
+            position: absolute;
+            margin-top:0px;
+            margin-left:300px;            
+          }
+
+          .ad img {
+            width:800px;
+            height:150px;
+            display:block;
+            border-radius:20px;
+          }
